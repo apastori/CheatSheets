@@ -1,0 +1,8 @@
+git filter-repo --force --commit-callback '
+if commit.author_name == b"Wrong User" or commit.author_email == b"wrong_email@email.com":
+    commit.author_name = b"Correct User"
+    commit.author_email = b"correct_email@email.com"
+if commit.committer_name == b"Wrong User" or commit.committer_email == b"wrong_email@email.com":
+    commit.committer_name = b"Correct User"
+    commit.committer_email = b"correct_email@email.com"
+'
