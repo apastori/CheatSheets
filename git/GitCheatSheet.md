@@ -820,3 +820,11 @@ Clear staging area, rewrite working tree from specified commit:
 ```
 $ git reset --hard [Commit]
 ```
+
+## Git Bash Custom Commands
+
+**Go back to root directory of repository if you are in a nested subdirectory**
+
+```
+$ cd "$(git rev-parse --show-toplevel)"
+```
