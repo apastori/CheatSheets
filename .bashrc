@@ -14,3 +14,6 @@ newbash() {
 
 alias obsidian-commit='cd ~/Desktop/notes && git add . && git commit -m "Update notes on $(date +"%Y-%m-%d %H:%M:%S")" && git push origin main'
 
+alias books-commit='cd ~/Desktop/books && git add . && git commit -m "Update books on $(date +"%Y-%m-%d %H:%M:%S")" && git push origin main'
+
+
