@@ -1,0 +1,11 @@
+[core]
+	editor = \"C:\\Users\\alfon\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
+[user]
+	email = alfonso.pastorimata@gmail.com
+	name = apastori
+[pull]
+	rebase = true
+[push]
+	default = simple
+[color]
+	ui = auto
