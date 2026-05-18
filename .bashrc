@@ -34,6 +34,9 @@ export PATH="/c/Users/alfon/anaconda3:/c/Users/alfon/anaconda3/Scripts:/c/Users/
 # Add MSYS2 as fallback for tools not found elsewhere (e.g. rsync)
 export PATH="$PATH:/c/msys64/usr/bin"
 
+# Add MSYS2 UCRT as fallback for tools not found elsewhere(e.g. gcc)
+export PATH="$PATH:/c/msys64/ucrt64/bin"
+
 alias obsidian-commit='cd ~/Desktop/notes && git add . && git commit -m "Update notes on $(date +"%Y-%m-%d %H:%M:%S")" && git push origin main'
 
 alias books-commit='cd ~/Desktop/code/code-books && git add . && git commit -m "Update books on $(date +"%Y-%m-%d %H:%M:%S")" && git push origin main'
