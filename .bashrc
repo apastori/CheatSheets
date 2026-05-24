@@ -65,3 +65,9 @@ get_loc() {
   return 0
 }
 
+# Source custom standalone functions if the file exists
+if [ -f ~/.bash_functions ]; then
+    source ~/.bash_functions
+fi
+
+
